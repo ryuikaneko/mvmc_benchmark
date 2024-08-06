@@ -1,0 +1,25 @@
+set term pdf
+set output "fig_ene_vs_steps.pdf"
+set xlabel "steps"
+set ylabel "energy"
+set grid
+
+opt1=2082
+opt2=12583
+
+p \
+"< cat \
+../optimization/def_files_1/output_?/zvo_out_001.dat \
+../optimization/def_files_1/output_??/zvo_out_001.dat \
+../optimization/def_files_1/output/zvo_out_001.dat \
+" u :1 w l lw 2 lc "red" ti "UHF init, no RBM, no L_k, no L_s, no Lanczos",\
+"< cat \
+../optimization/def_files_2/output_?/zvo_out_001.dat \
+../optimization/def_files_2/output_??/zvo_out_001.dat \
+../optimization/def_files_2/output/zvo_out_001.dat \
+" u ($0+opt1):1 w l lw 2 lc "dark-green" ti "no L_k, no L_s, no Lanczos",\
+"< cat \
+../optimization/def_files_3/output_?/zvo_out_001.dat \
+../optimization/def_files_3/output_??/zvo_out_001.dat \
+../optimization/def_files_3/output/zvo_out_001.dat \
+" u ($0+opt1+opt2):1 w l lw 2 lc "blue" ti "no Lanczos"
