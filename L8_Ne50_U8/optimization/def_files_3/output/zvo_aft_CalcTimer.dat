@@ -1,0 +1,43 @@
+All                         [0]   1208.62564
+Initialization              [1]      5.26090
+  read options             [10]      0.09052
+  ReadDefFile              [11]      0.31359
+  SetMemory                [12]      0.00027
+  InitParameter            [13]      4.66791
+VMCPhysCal                  [2]   1203.36474
+  VMCMakeSample             [3]     89.08189
+    makeInitialSample      [30]      6.91131
+    make candidate         [31]      0.03245
+    hopping update         [32]     71.16100
+      UpdateProjCnt        [60]      0.56163
+      CalculateNewPfM2     [61]     17.96257
+      CalculateLogIP       [62]      0.22936
+      UpdateMAll           [63]     49.66844
+    exchange update        [33]      0.00000
+      UpdateProjCnt        [65]      0.00000
+      CalculateNewPfMTwo2  [66]      0.00000
+      CalculateLogIP       [67]      0.00000
+      UpdateMAllTwo        [68]      0.00000
+    lspinflip update       [36]      0.00000
+      UpdateProjCnt       [600]      0.00000
+      CalculateNewPfMTwo2 [601]      0.00000
+      CalculateLogIP      [602]      0.00000
+      UpdateMAllTwo       [603]      0.00000
+    recal PfM and InvM     [34]     10.94265
+    save electron config   [35]      0.01511
+  VMCMainCal                [4]   1057.83080
+    CalculateMAll          [40]      6.75172
+    LocEnergyCal           [41]      6.10658
+      CalHamiltonian0      [70]      0.05154
+      CalHamiltonian1      [71]    727.40770
+      CalHamiltonian2      [72]      0.00969
+    CalculateGreenFunc     [42]      0.00648
+      GreenFunc1           [50]      0.00394
+      GreenFunc2           [51]      0.00003
+      addPhysCA            [52]      0.00033
+      addPhysCACA          [53]      0.00005
+    Lanczos1               [43]   1044.96424
+    Lanczos2               [44]      0.00000
+  UpdateSlaterElm          [20]      0.02319
+  WeightAverage            [21]     55.61897
+  outputData               [22]      0.67136

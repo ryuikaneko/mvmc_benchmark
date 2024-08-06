@@ -1,0 +1,28 @@
+Date              = Mon Aug  5 16:27:41 JST 2024
+Hostname          = c15u02n2
+Working Directory = /home/k0031/k003123/work/mvmc_20240726_1_rbm_TestCase/test_20240803_1_L8_Ne50_U8/def_files_3
+
+Number of Nodes Allocated      = 8
+Number of Tasks Allocated      = 256
+Number of Cores/Task Allocated = 4
+[LOG_CAT_MCAST] VMC Failed to join multicast, is_root 1. Unexpected event was received: event=13, str=RDMA_CM_EVENT_MULTICAST_ERROR, status=-22
+[LOG_CAT_MCAST] MCAST rank=0: Error in initializing vmc communicator
+[LOG_CAT_P2P] Failed to create MCAST comm
+[LOG_CAT_MCAST] MCAST rank=3: Error in initializing vmc communicator
+[LOG_CAT_P2P] Failed to create MCAST comm
+[LOG_CAT_MCAST] MCAST rank=7: Error in initializing vmc communicator
+[LOG_CAT_P2P] Failed to create MCAST comm
+[LOG_CAT_MCAST] MCAST rank=6: Error in initializing vmc communicator
+[LOG_CAT_P2P] Failed to create MCAST comm
+[LOG_CAT_MCAST] MCAST rank=1: Error in initializing vmc communicator
+[LOG_CAT_P2P] Failed to create MCAST comm
+[LOG_CAT_MCAST] MCAST rank=5: Error in initializing vmc communicator
+[LOG_CAT_P2P] Failed to create MCAST comm
+[LOG_CAT_MCAST] MCAST rank=4: Error in initializing vmc communicator
+[LOG_CAT_P2P] Failed to create MCAST comm
+[LOG_CAT_MCAST] MCAST rank=2: Error in initializing vmc communicator
+[LOG_CAT_P2P] Failed to create MCAST comm
+Warning: All the pairings are treated as complex variational parameters.
+slurmstepd: error: *** JOB 2100623 ON c15u02n2 CANCELLED AT 2024-08-05T16:57:39 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 42 seconds for job step to finish.
+slurmstepd: error: *** STEP 2100623.0 ON c15u02n2 CANCELLED AT 2024-08-05T16:57:39 DUE TO TIME LIMIT ***
