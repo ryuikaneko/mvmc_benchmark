@@ -1,0 +1,54 @@
+Date              = Sat Aug  3 16:56:41 JST 2024
+Hostname          = c15u01n1
+Working Directory = /home/k0031/k003123/work/mvmc_20240726_1_rbm_TestCase/test_20240802_1_L8_Ne64_U4/def_files_3
+
+Number of Nodes Allocated      = 8
+Number of Tasks Allocated      = 256
+Number of Cores/Task Allocated = 4
+Warning: All the pairings are treated as complex variational parameters.
+Start: Read *def files.
+  Read File namelist_aft3.def .
+Start: Read ModPara File .
+End: Read ModPara File .
+  Read File 'modpara_aft3.def' for ModPara.
+  Read File 'locspn.def' for LocSpin.
+  Read File 'trans.def' for Trans.
+  Read File 'coulombintra.def' for CoulombIntra.
+  Read File 'rbm_hlayeridx.def' for GeneralRBM_HiddenLayer.
+  Read File 'rbm_playeridx.def' for GeneralRBM_PhysLayer.
+  Read File 'rbm_phidx.def' for GeneralRBM_PhysHidden.
+  Read File 'orbitalidx.def' for Orbital.
+  Read File 'qptransidx.def' for TransSym.
+  Read File 'greenone.def' for OneBodyG.
+  Read File 'greentwo.def' for TwoBodyG.
+End  : Read *def files.
+Start: Read parameters from *def files.
+     locspn.def
+     trans.def
+     coulombintra.def
+     rbm_hlayeridx.def
+     rbm_playeridx.def
+     rbm_phidx.def
+     orbitalidx.def
+     qptransidx.def
+     greenone.def
+     greentwo.def
+finish reading parameters.
+End  : Read parameters from *def files.
+Start: Set memories.
+End  : Set memories.
+Start: Initialize parameters.
+End  : Initialize parameters.
+Start: Initialize variables for quantum projection.
+End  : Initialize variables for quantum projection.
+Start: Calculate VMC physical quantities.
+Start: UpdateSlaterElm.
+End  : UpdateSlaterElm.
+Start: Sampling.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Calculate VMC physical quantities.
+Start: Free Memory.
+End: Free Memory.
+Finish calculation.

@@ -1,0 +1,5 @@
+p\
+"output/zvo_out_001.dat" u :1,\
+-54.986 w l lc -1
+pause -1
+
