@@ -1,0 +1,5 @@
+p\
+"< cat output_?/zvo_out_001.dat output_??/zvo_out_001.dat output/zvo_out_001.dat" u :1,\
+-72.344 w l lc -1
+pause -1
+

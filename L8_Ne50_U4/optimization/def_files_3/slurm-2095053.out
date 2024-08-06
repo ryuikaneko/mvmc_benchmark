@@ -1,0 +1,11 @@
+Date              = Wed Jul 31 01:30:13 JST 2024
+Hostname          = c15u01n1
+Working Directory = /home/k0031/k003123/work/mvmc_20240726_1_rbm_TestCase/test_20240730_1_L8_Ne50_U4/def_files_3
+
+Number of Nodes Allocated      = 8
+Number of Tasks Allocated      = 256
+Number of Cores/Task Allocated = 4
+Warning: All the pairings are treated as complex variational parameters.
+srun: Job step aborted: Waiting up to 42 seconds for job step to finish.
+slurmstepd: error: *** JOB 2095053 ON c15u01n1 CANCELLED AT 2024-07-31T02:00:14 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 2095053.0 ON c15u01n1 CANCELLED AT 2024-07-31T02:00:14 DUE TO TIME LIMIT ***
