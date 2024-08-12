@@ -1,0 +1,12 @@
+Date              = Sun Aug 11 10:18:18 JST 2024
+Hostname          = c20u06n1
+Working Directory = /home/k0031/k003123/work/mvmc_20240726_1_rbm_TestCase/test_20240802_1_L8_Ne64_U4/def_files_4_aft_3
+
+Number of Nodes Allocated      = 8
+Number of Tasks Allocated      = 256
+Number of Cores/Task Allocated = 4
+Warning: All the pairings are treated as complex variational parameters.
+srun: error: Node failure on c20u13n1
+slurmstepd: error: *** JOB 2105159 ON c20u06n1 CANCELLED AT 2024-08-11T10:34:02 DUE TO NODE FAILURE, SEE SLURMCTLD LOG FOR DETAILS ***
+slurmstepd: error: *** STEP 2105159.0 ON c20u06n1 CANCELLED AT 2024-08-11T10:34:02 DUE TO NODE FAILURE, SEE SLURMCTLD LOG FOR DETAILS ***
+srun: Job step aborted: Waiting up to 42 seconds for job step to finish.

@@ -1,0 +1,11 @@
+         ModPara  modpara_aft4.def
+         LocSpin  locspn.def
+           Trans  trans.def
+    CoulombIntra  coulombintra.def
+       OneBodyG  greenone.def
+       TwoBodyG  greentwo.def
+         Orbital  orbitalidx.def
+        TransSym  qptransidx.def
+GeneralRBM_HiddenLayer  rbm_hlayeridx.def
+GeneralRBM_PhysLayer    rbm_playeridx.def
+GeneralRBM_PhysHidden   rbm_phidx.def
